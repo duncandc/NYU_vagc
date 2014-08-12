@@ -3,8 +3,8 @@
 #Author: Duncan Campbell
 #Written:  August 14, 2013
 #Yale University
-#Description: Read in ascii CFHTLS photo-z catalogues and save as HDF5 files.
-#data from: ftp://ftpix.iap.fr/pub/CFHTLS-zphot-T0007/
+#Description: Read in ascii nyu vagc, combine, and save as HDF5 files.
+#data from: http://sdss.physics.nyu.edu/vagc/
 
 ###packages###
 import sys
