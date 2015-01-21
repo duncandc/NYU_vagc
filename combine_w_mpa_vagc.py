@@ -50,6 +50,7 @@ def main():
     dtype = np.dtype(dset_1.dtype.descr + dset_2.dtype.descr[25:])
     
     combined_data = np.recarray((len(dset_1),),dtype=dtype)
+    combined_data.fill(-99)
     
     for name in names_1:
         print(name)
